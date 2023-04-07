@@ -84,3 +84,17 @@ start and finish of a paragraph element, or more involved tags like
 12. What is the main difference between margin and padding?
 - The main difference between margin and padding are their location in the `CSS Box Model`. As mentioned within question 11, `padding` is the cleared space that surrounds the content itself, while the `margin` affects the space found outside the `border` of the box. They both serve very similar purposes, just in different areas.  
 
+13. What are different types of display properties?
+- `display: none;` which makes the element invisible.
+- `display: inline;` which displays the elements in one line.
+- `display: inline-block;` which displays the element inline, but can also apply height/width values.
+- `display: block;` which displays the element as a block element, starting on its own lines and taking up the whole width.
+- `display:list-items;` which displays the elements like an `<li>` element.
+- `display:flex;` which displays the element as a block flex container.
+- `display:inline-flex;` which displays the element as a inline flex container.
+- `display:grid;` which displays the element as a block grid container.
+- `display:inline-grid;` which displays the element as a inline grid container.
+
+
+
+
