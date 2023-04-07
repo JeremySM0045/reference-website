@@ -68,3 +68,6 @@ start and finish of a paragraph element, or more involved tags like
 
 9. What is the difference between CSS property and value
 - When coding CSS, the `property` and `value` make up the 2 components of a declaration. the `property` refers to what you are looking to edit, some example include `color`, `width` , `margin`, and so forth. The `value` refers to the increment you want to edit the property, with there being different increment types depending on the situation. some cases use `em`, `rem`, `px`, `%`, and so forth. Example: `h1 {font-size: 120px;}`
+
+10. Why do we use border-box property in CSS?
+- In essence, we use border-box property because it is such a great help when keeping sizing consistant. When a page does not use border-box, the border and padding are added atop your specified width/height. This can result 2 elements with the same height/width to appear in contrasting sizes. However, when you use `box-sizing: border-box;` on an element, the padding and border are instead included in the width/height, insuring that the size stays consistant. Because of this, `border-box` has become a staple choice when making boxes.
