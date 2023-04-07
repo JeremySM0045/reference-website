@@ -22,3 +22,19 @@ start and finish of a paragraph element, or more involved tags like
 
 4. Proper syntax for HTML tags
 - When writing proper HTML tags, there's a few rules to keep in mind when regarding the syntax. Firstly, always type your tags in lowercase, with the only common exception to this being `<!DOCTYPE>`. Secondly, to every opening tag there is a closing tag, one that includes a `/` along with its tag; Ex: `<h1></h1>`. Forgeting these can cause minor or major problems to the containement of elements depending on the tag. Lastly, when using heading tags, make sure to work from `h1-h6` in that order, though only introduce new heading types if absolutely necessary. The same applies to using `section`, `article` and `div`.
+
+5. Explain or demonstrate commonly used html tags/elements:
+- `<h1>-<h6>` h1 is used once for the main heading. h2 for section headings, and h3-h6 for sub-headings.
+- `<p>` is used to define an section of text as a paragrah element.
+- `<ul>, <ol>, <dl>` is used to define (3) different types of lists. `ul` is used for unordered lists that include bullet-points, `ol` is used for ordered lists that are numbered, and finally `dl` is for a description list which include indented descriptors to the item in question.
+- `<a>` refers is to used to define hyperlinks found within the page.
+- `<img>` refers to imported elements that are images in jpg, svg, png and other file type.
+- `<figure>` is used to define self-contained content. a `<figcaption>` is a caption for the figure content.
+- `<q>` is used to define a short quotation.
+- `<blockquote>` is used to define a section that is quoted from another source.
+- `<cite>` is used to define the title of a work.
+- `<em>`is used to place emphasis on a text.
+- `<strong>` is used to define important text. Both `<em>` and `<strong>` are commonly used to improve accessibility.
+- `<b>` is used to make text bold.
+- `<i>`is used to define a shift in tone or mood for a part in a text. the content will be displayed in `italic`
+- `<small>` is used to define smaller text that the rest of the text.  
