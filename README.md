@@ -71,3 +71,12 @@ start and finish of a paragraph element, or more involved tags like
 
 10. Why do we use border-box property in CSS?
 - In essence, we use border-box property because it is such a great help when keeping sizing consistant. When a page does not use border-box, the border and padding are added atop your specified width/height. This can result 2 elements with the same height/width to appear in contrasting sizes. However, when you use `box-sizing: border-box;` on an element, the padding and border are instead included in the width/height, insuring that the size stays consistant. Because of this, `border-box` has become a staple choice when making boxes.
+
+11. Explain different type of ways we can add spacing to an element
+- `width` refers to the horizontal width of the `content`.
+- `height` refers to the vertical height of the `content`.
+- `padding` refers to the cleared area around the `content`. 
+- `border` refers to the defined area around the `padding`.
+- `margin` refers to the cleared area outside the `border`.
+
+
