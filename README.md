@@ -54,3 +54,9 @@ start and finish of a paragraph element, or more involved tags like
 - `<footer>` is used to define a footer for a document or section.
 - `<span>` is used to define a section in a document, much like `<section>` and `<div>`.
 - `<small>` is used to define smaller text within a text.
+
+7. Explain why accessibility is important and also explain the accessibility properties
+- when it comes to accessibility, it is incredibly important because of the ease of access it provides for anyone that might have minor or major visual, auditory and/or sensory disabilities. By including accessibility properties, you make the user experience that much profound.
+- `landmark roles` are roles provided to identify different key sections that the web reader might want to highlight, such examples include `banner``navigation``main` and so forth. 
+- `aria-labels` are descriptors that can be read by screen readers to describe and informe the user about what they are interacting with. This is usually for images, landmarks and interactive elements like hyperlinks. The text itself will not be visible on screen.
+- `image alternative texts` or simply `alt` work in the same way as aria-labels, as there purpose is to describe and define images for those that might have impaired vision. Much like aria-label, their text will not be visible on screen. 
