@@ -81,3 +81,6 @@ start and finish of a paragraph element, or more involved tags like
 - `margin` refers to the cleared area outside the `border`.
 - Using these in combination or seperately will help add desired spacing to an element.
 
+12. What is the main difference between margin and padding?
+- The main difference between margin and padding are their location in the `CSS Box Model`. As mentioned within question 11, `padding` is the cleared space that surrounds the content itself, while the `margin` affects the space found outside the `border` of the box. They both serve very similar purposes, just in different areas.  
+
