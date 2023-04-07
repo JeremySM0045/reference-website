@@ -37,4 +37,20 @@ start and finish of a paragraph element, or more involved tags like
 - `<strong>` is used to define important text. Both `<em>` and `<strong>` are commonly used to improve accessibility.
 - `<b>` is used to make text bold.
 - `<i>`is used to define a shift in tone or mood for a part in a text. the content will be displayed in `italic`
-- `<small>` is used to define smaller text that the rest of the text.  
+- `<small>` is used to define smaller text that the rest of the text.
+
+6. Explain block Elements and also explain the list of block elements and why they are used from below 
+- As a summary, block elements are elements that follow the base block format. These inlude always starting on a new line, automatically adding margin between itself and other elements. In essence, a block element ''blocks'' itself off from the other elements. some examples are:
+- `<html>` is used to define the root of the HTML document. It also groups up all the code from start to end. 
+- `<head>` is used to define the section that contains all the metadata and information for a document.
+- `<body>` is used to define the document's body.
+- `<header>` is used to defined the header for the document or section.
+- `<nav>` is used to define the section with the navigation links.
+- `<main>` is used to define the main content of a document. 
+- `<section>` is used to define a section within a document.
+- `<article>` is used to define an article within a document.
+- `<div>` is also used to define a section in a document, though typically within an existing `<section>`.
+- `<aside>` is used to define content that is labeled as being aside the page content. Usually where adverts are located.
+- `<footer>` is used to define a footer for a document or section.
+- `<span>` is used to define a section in a document, much like `<section>` and `<div>`.
+- `<small>` is used to define smaller text within a text.
