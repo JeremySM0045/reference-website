@@ -60,3 +60,8 @@ start and finish of a paragraph element, or more involved tags like
 - `landmark roles` are roles provided to identify different key sections that the web reader might want to highlight, such examples include `banner``navigation``main` and so forth. 
 - `aria-labels` are descriptors that can be read by screen readers to describe and informe the user about what they are interacting with. This is usually for images, landmarks and interactive elements like hyperlinks. The text itself will not be visible on screen.
 - `image alternative texts` or simply `alt` work in the same way as aria-labels, as there purpose is to describe and define images for those that might have impaired vision. Much like aria-label, their text will not be visible on screen. 
+
+8. What is CSS and how can we implement CSS to our html file
+- In essence, CSS works in tandum with HTML, whereas HTML deals with formating and labeling, CSS's main purpose is visual changes to the web page. Anything from positioning, orientation, color, typeface, margins and much more. 
+- To link your HTML to your CSS code, you must first create a `style.css` file within a `CSS Folder`, then write the following line within the `<head>` of your HTML:
+`<link rel="stylesheet" href="css/style.css">`. This will effectively make sure any code writing in your style.css will influence your index.html code. 
