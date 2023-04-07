@@ -65,3 +65,6 @@ start and finish of a paragraph element, or more involved tags like
 - In essence, CSS works in tandum with HTML, whereas HTML deals with formating and labeling, CSS's main purpose is visual changes to the web page. Anything from positioning, orientation, color, typeface, margins and much more. 
 - To link your HTML to your CSS code, you must first create a `style.css` file within a `CSS Folder`, then write the following line within the `<head>` of your HTML:
 `<link rel="stylesheet" href="css/style.css">`. This will effectively make sure any code writing in your style.css will influence your index.html code. 
+
+9. What is the difference between CSS property and value
+- When coding CSS, the `property` and `value` make up the 2 components of a declaration. the `property` refers to what you are looking to edit, some example include `color`, `width` , `margin`, and so forth. The `value` refers to the increment you want to edit the property, with there being different increment types depending on the situation. some cases use `em`, `rem`, `px`, `%`, and so forth. Example: `h1 {font-size: 120px;}`
