@@ -115,7 +115,7 @@ start and finish of a paragraph element, or more involved tags like
 
 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
 
-- `.wrapper { ``display: flex; `
+- `.wrapper { display: flex; `
 ` flex-direction: column-reverse;`
 ` justify-content: center;`
 
