@@ -135,3 +135,32 @@ start and finish of a paragraph element, or more involved tags like
 - there are a great deal of similarities when it comes to display : flex and display : grid, but a few key elements differ them appart. Firstly, flexbox as seen as "one dimensional" since the movement is alot more loose with the options to wrap and move items alongs a prestablish axis. Rather, grids are seen as ''two dimentsonal", in the sense that you can explicitly place things into both rows and columns as one sees fit rather than moving freely. 
 - Secondly, Grids are more defined on the parent element, while flex will rather affect the children. 
 - Lastly, Grids are seen as more sturdy and rigid, while flexbox is seen as freeform as the name suggest. For this reason, grids are primarly strong when wanting to make overlaps and traditional looking boxes, while flex finds its neiche strength with my fluid and non-traditional patterns.
+
+21. What sub-property we use to divide elements in CSS Grid properties?
+
+- `gap / grid-row-gap / grid-column-gap`
+
+22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
+
+- `fr`
+- `grid-tenplate-columns: 200px 10em 45%;`
+
+23. What is the area property in CSS grid we use for the child elements?
+
+`.grid-container div{ `
+` grid-area: myArea;`
+
+24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+
+- `.grid-container {`
+  `display: grid; `
+  `grid-auto-flow: column; }`
+
+25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
+
+- Firstly, you want to head over to https://fonts.google.com/
+- From there, select your desired fonts, either selecting the entire family or only certain types.
+- After you have selected all desired fonts, select "View Selected Families" and copy the `<link>` code provided.
+- Once done, you will want to copy & paste said code into the `<head>` of your `index.html` document. The location of it within the head isn't too important, but it is usually added about `<title>`
+- If your `index.html` and `style.css` files are properly linked themselves, then you have completed all the necessary to import google fonts.
+- for selecting the font, simply use the proper naming conventions, for example: `font-family: 'Roboto', sans-serif;`
