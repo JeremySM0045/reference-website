@@ -95,6 +95,43 @@ start and finish of a paragraph element, or more involved tags like
 - `display:grid;` which displays the element as a block grid container.
 - `display:inline-grid;` which displays the element as a inline grid container.
 
+14. Write a brief explanation of flexbox property
+- In essence, flexbox properties are the many and varied properties that allow you to alter and edit an element that has been labeled as a flex-container. These properties include `flex-direction`, `flex-wrap`, `flex-flow` and so forth.
 
+15. What are different types of flexbox properties and what is the major difference between them?
+- `flex-direction`define which direction the container wants to stack the flex items. the two directions are `row`, `column` and their reversed variants.
+- `flex-wrap` specifies whether or not the items should wrap or not.
+- `flex-flow` is a shorthand property that includes and edits both `flex-direction` and `flex-wrap`
+- `justify-content` property is used to align flex items vertically.
+- `align-items` property is used to align flex items horizontally.
+- `align-content` property is used to align flex lines.
 
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 
+- Below is a common example of the code used for flexbox property. In this situation you have a parent element classed as `flex-container`, set to display as a flexbox container, then placing all the content at the base of the container. As mentioned above, you require a flexbox property since simply displaying as a flexbox does not affect the page.  
+`.flex-container { `
+   ` display: flex; ` 
+   `justify-content: flex-end; }`
+
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+
+- `.wrapper { ``display: flex; `
+` flex-direction: column-reverse;`
+` justify-content: center;`
+
+18. What is CSS grid property?
+
+- In essence, the CSS grid property is a property that allows you to place an element in a grid container. It is also a shorthand property that leads to the usuage of other more involved properties like `grid-template-rows`, `grid-template-areas`, `grid-template-columns` and so forth.
+
+19. Write the parent and two sub-properties used for CSS Grid Property.
+
+- `.grid-container { `
+`display: grid; `
+`grid-template-rows: 45% 45%;`
+`gap: 1em;`
+
+20. What is the difference between display: flex and display: grid?
+
+- there are a great deal of similarities when it comes to display : flex and display : grid, but a few key elements differ them appart. Firstly, flexbox as seen as "one dimensional" since the movement is alot more loose with the options to wrap and move items alongs a prestablish axis. Rather, grids are seen as ''two dimentsonal", in the sense that you can explicitly place things into both rows and columns as one sees fit rather than moving freely. 
+- Secondly, Grids are more defined on the parent element, while flex will rather affect the children. 
+- Lastly, Grids are seen as more sturdy and rigid, while flexbox is seen as freeform as the name suggest. For this reason, grids are primarly strong when wanting to make overlaps and traditional looking boxes, while flex finds its neiche strength with my fluid and non-traditional patterns.
