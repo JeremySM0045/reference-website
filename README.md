@@ -148,7 +148,7 @@ start and finish of a paragraph element, or more involved tags like
 23. What is the area property in CSS grid we use for the child elements?
 
 `.grid-container div{ `
-` grid-area: myArea;`
+` grid-area: myArea; }`
 
 24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
 
